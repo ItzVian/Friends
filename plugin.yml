@@ -1,0 +1,15 @@
+name: Friends
+author: ItzVian
+version: 0.1
+api: 4.0.0
+main: FriendSystem\friends
+description: FriendSystem by ItzVian
+commands:
+  friends:
+    description: Main Command
+    aliases: [fr]
+    permission: friend.cmd
+permissions:
+  friend.cmd:
+    default: true
+
